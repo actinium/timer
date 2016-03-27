@@ -31,7 +31,7 @@ function drawTimer(progress){
 
   drawCircle(radius,"#cecece");
   drawCircle(0.9*radius,"#bbbbbb");
-  drawPie(0.9*radius, "#665588", progress);
+  drawPie(0.9*radius, "#777777", progress);
   drawCircle(0.9*0.9*radius,"#cfcfcf");
 }
 
