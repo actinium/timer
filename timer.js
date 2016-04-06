@@ -11,9 +11,6 @@ function drawCircle(radius,color) {
   ctx.arc(0, 0, radius, 0 , 2*Math.PI);
   ctx.fillStyle = color;
   ctx.fill();
-  ctx.strokeStyle = "#999999";
-  ctx.lineWidth = 1;
-  ctx.stroke();
 }
 
 function drawPie(radius,color,progress){
