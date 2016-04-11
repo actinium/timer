@@ -26,10 +26,10 @@ function drawTimer(progress){
 
   ctx.clearRect(-canvas.width/2,-canvas.height/2,canvas.width,canvas.height);
 
-  drawCircle(radius,"#cecece");
+  drawCircle(radius,"#eeeeee");
   drawCircle(0.9*radius,"#bbbbbb");
   drawPie(0.9*radius, "#777777", progress);
-  drawCircle(0.9*0.9*radius,"#cfcfcf");
+  drawCircle(0.9*0.9*radius,"#eeeeee");
 }
 
 drawTimer(0);
